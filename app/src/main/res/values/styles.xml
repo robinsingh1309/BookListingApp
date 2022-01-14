@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Primary color of the app (shown in the app bar)-->
+        <item name="colorPrimary">#9FE6A0</item>
+        <!-- Primary dark color of the app (shown in the status bar)-->
+        <item name="colorPrimaryDark">#1F1D36</item>
+        <!-- Accent color of the app -->
+        <item name="colorAccent">#864879</item>
+
+    </style>
+
+    <style name="book_list_item">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:gravity">center_vertical</item>
+
+    </style>
+
+    <style name="empty_and_progress_bar_attribute">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+
+    </style>
+
+</resources>
